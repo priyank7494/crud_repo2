@@ -5,7 +5,7 @@ var Productrouter = require('./routes/Routes');
 require('./service/db');
 
 var app = express();
-var PORT = 8080;
+var PORT = 8000;
 
 
 app.use(express.urlencoded({ extended: false }));
